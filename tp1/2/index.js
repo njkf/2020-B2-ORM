@@ -8,6 +8,20 @@ exports = module.exports = {
   algo: function (input) {
     // YOUR CODE BETWEEN HERE
 
+    let charge = input[0]
+
+    console.log(4,charge)
+
+    while (charge < 100) {
+      for (let i = 1; i < input.length; i++) {
+        charge += input[i] ;
+      }
+    }
+    
+    
+
+
+
     // AND HERE
   },
   verify: function (dataset, output) {
